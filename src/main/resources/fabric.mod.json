@@ -1,0 +1,34 @@
+{
+	"schemaVersion": 1,
+	"id": "justoutdoorstuffs",
+	"version": "${version}",
+	"name": "Just Outdoor Stuffs (UNOFFICIAL)",
+	"description": "Unofficial Fabric 1.21.1 port. Original code and assets are credited in the project README.",
+	"authors": [
+		"JustHari (port)",
+		"Hyenify",
+		"ImJustSeiyin",
+		"ringpro"
+	],
+	"contact": {
+		"homepage": "https://modrinth.com/mod/just-outdoor-stuffs",
+		"sources": "https://github.com/JustHari01/Just-Outdoor-Stuffs-Fabric-1.21.1-Port"
+	},
+	"license": "MIT",
+	"icon": "assets/justoutdoorstuffs/textures/mod_icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.imjustseiyin.JustOutdoorStuffsMod"
+		],
+		"client": [
+          "com.imjustseiyin.JustOutdoorStuffsClientMod"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}

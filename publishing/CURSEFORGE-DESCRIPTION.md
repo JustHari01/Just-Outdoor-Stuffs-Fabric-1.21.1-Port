@@ -1,0 +1,3 @@
+Unofficial Fabric port of Just Outdoor Stuffs for Minecraft 1.21.1. Brings the Garden and Patio decoration sets, furniture, original textures and models, recipes, and the upstream block/item identifiers to 1.21.1. Requires Fabric Loader, Fabric API, and Java 21. This is an independent port and is not affiliated with the original project team. Based on the MIT-licensed source by Hyenify, ringpro, and ImJustSeiyin; the original license and notices are included. Source: https://github.com/JustHari01/Just-Outdoor-Stuffs-Fabric-1.21.1-Port
+
+AI disclosure: AI tools assisted with adapting the code to Minecraft 1.21.1. The original assets are included unchanged under the upstream MIT license.
