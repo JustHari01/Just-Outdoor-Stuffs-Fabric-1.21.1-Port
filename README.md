@@ -27,7 +27,8 @@ Run `./gradlew remapJar` (Windows: `gradlew.bat remapJar`). The remapped JAR is 
 - `compileJava` and `compileClientJava`: passed.
 - `remapJar`: passed.
 - Isolated Fabric dedicated-server smoke test: the mod loaded, a fresh world and spawn chunks initialized, and the server saved all dimensions on shutdown.
-- Client rendering and in-game interaction have not yet been verified in a graphical client.
+- Server-side chair behavior was checked on a fresh dedicated-server world with temporary Carpet fake players: one player sat on a garden chair, a second could not mount or create another seat while it was occupied, and dismount removed the seat entity. Carpet was test-only and is not a project dependency.
+- Graphical rendering, furniture appearance in a client, and placement/rotation behavior across all furniture blocks have not been verified.
 
 ## Credits and license
 
